@@ -1,0 +1,59 @@
+---
+layout: page
+title: Writings
+---
+
+<div style="font-size: 170%; color: #00cc99;"> Urban Research </div>
+
+<section class="list" style="margin-left: 10%; margin-right: 10%;">
+    {% for post in site.posts %}
+        {% if post.writings1 %}
+        <div class="side-by-side">
+            <div class="toleft">
+            <img class="image" src="http://s33.postimg.org/ix3kf9zpr/img_4380.jpg" alt="Medellín Social Urbanism" style="margin-top: 5%; width: 90%;">           
+            </div>
+            <div class="toright">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href='http://laurenmackey.com/medellin-social-urbanism/' target="_blank">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul style="margin-top: -2%;">
+            <li>An examination of the social urbanism projects in Medellín, Colombia and their effects on the city's neighborhoods</li>
+            </ul>
+            </div>
+            </div>
+        {% endif %}
+        {% if post.writings2 %}
+            <div class="side-by-side">
+            <div class="toleft">            
+            </div>
+            <div class="toright" style="margin-top: -10%;">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href='http://laurenmackey.com/medellin-social-urbanism-esp/' target="_blank">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul style="margin-top: -2%;">
+            <li>A version of the paper above in Spanish</li>
+            </ul>
+            </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
+
+<div style="font-size: 170%; color: #00cc99;"> Travel Reflections </div>
+
+<section class="list">
+    {% for post in site.posts %}
+        {% if post.writings3 %}
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
