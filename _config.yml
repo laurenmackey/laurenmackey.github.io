@@ -7,9 +7,9 @@ name: Lauren Mackey
 external-image: false
 picture: 'assets/images/dsc00842_2.jpg'
 
-url: http://koppl.in/indigo
-# your url: http://laurenmackey.github.io
+url: http://laurenmackey.com
 
+# remove /:title/ when pushing live
 permalink: /:title/
 
 markdown: kramdown

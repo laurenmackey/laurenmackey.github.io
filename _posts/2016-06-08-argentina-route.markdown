@@ -7,6 +7,7 @@ tags:
 maps9: true
 jemoji:
 show-info: false
+show-title: true
 ---
 
 <svg style="margin-left: 2%;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="640px"
@@ -3224,3 +3225,9 @@ AAAASUVORK5CYII=" transform="matrix(0.1858 0 0 0.1858 127.5205 106.3018)">
     <line fill="#2FB9B4" stroke="#2FB9B4" stroke-width="2" stroke-miterlimit="10" x1="97.299" y1="67.781" x2="544.85" y2="67.781"/>
 </g>
 </svg>
+
+<style>
+.wrapper-normal {
+    max-width: 640px;
+}
+</style>

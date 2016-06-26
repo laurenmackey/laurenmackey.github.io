@@ -5,6 +5,7 @@ date: 2016-01-07
 tag:
 writings3: true
 show-info: true
+show-title: true
 ---
 *Fundo los Leones, Lakes District, Chile*
 
