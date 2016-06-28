@@ -251,7 +251,7 @@ var main = function () {
     })
 
     $('#Title').click(function() {
-        window.open('http://laurenmackey.com/medellin-social-urbanism/');
+        window.open('http://laurenmackey.com/medellin-social-urbanism-en/', '_self');
     })
 
     $('#Title').hover(

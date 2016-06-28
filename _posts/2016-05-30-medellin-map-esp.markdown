@@ -9379,7 +9379,7 @@ var mainTwo = function () {
     })
 
     $('#Title').click(function() {
-        window.open('http://laurenmackey.com/medellin-social-urbanism-esp/');
+        window.open('http://laurenmackey.com/medellin-social-urbanism-esp/', '_self');
     })
 
     $('#Title').hover(

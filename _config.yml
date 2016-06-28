@@ -9,7 +9,6 @@ picture: 'assets/images/dsc00842_2.jpg'
 
 url: http://laurenmackey.com
 
-# remove /:title/ when pushing live
 permalink: /:title/
 
 markdown: kramdown
