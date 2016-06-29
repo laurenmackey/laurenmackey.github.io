@@ -168,5 +168,22 @@ title: Maps
             </div>
             </div>
         {% endif %}
+        {% if post.maps10 %}
+            <div class="side-by-side">
+            <div class="toleft">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Colombia in April - June, 2016</li>
+            </ul>
+            </div>
+            <div class="toright">
+            <img class="image" src="https://s32.postimg.org/xa45doe5h/colombia_outline.png" alt="Colombia Route" style="width: 70%;">            
+            </div>
+            </div>
+        {% endif %}
     {% endfor %}
 </section>
