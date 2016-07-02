@@ -1350,7 +1350,7 @@ show-title: true
         <rect x="4.034" y="4.441" fill="none" stroke="#2FB9B4" stroke-miterlimit="10" width="631.932" height="471.118"/>
     </g>
     
-        <line fill="#2FB9B4" stroke="#2FB9B4" stroke-width="2" stroke-miterlimit="10" x1="155.527" y1="67.781" x2="481.799" y2="67.781"/>
+        <line id="_x3C_PathUnderline_x3E_" fill="#2FB9B4" stroke="#2FB9B4" stroke-width="2" stroke-miterlimit="10" x1="106.57" y1="67.781" x2="534.787" y2="67.781"/>
 </g>
 </svg>
 
