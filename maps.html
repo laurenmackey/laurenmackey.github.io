@@ -185,5 +185,22 @@ title: Maps
             </div>
             </div>
         {% endif %}
+        {% if post.maps11 %}
+            <div class="side-by-side">
+            <div class="toleft">
+                <img class="image" src="https://s31.postimg.org/vcyr1hvp7/panama_outline.png" alt="Panamá Route" style="width: 80%; margin-left: 5%;">
+            </div>
+            <div class="toright">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Panamá in June - July, 2016</li>
+            </ul>
+            </div>
+            </div>
+        {% endif %}
     {% endfor %}
 </section>
