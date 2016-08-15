@@ -219,5 +219,39 @@ title: Maps
             </div>
             </div>
         {% endif %}
+        {% if post.maps13 %}
+            <div class="side-by-side">
+            <div class="toleft">
+                <img class="image" src="https://s3.postimg.org/dt0ssyrnn/nicaragua_outline.png" alt="Nicaragua Route" style="width: 74%; margin-left: 5%;">
+            </div>
+            <div class="toright">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Nicaragua in July - August, 2016</li>
+            </ul>
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps14 %}
+            <div class="side-by-side">
+            <div class="toleft">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Honduras in August, 2016</li>
+            </ul>
+            </div>
+            <div class="toright">
+            <img class="image" src="https://s3.postimg.org/kbsy7e7oz/honduras_outline.png" alt="Honduras Route" style="width: 88%;">            
+            </div>
+            </div>
+        {% endif %}
     {% endfor %}
 </section>
