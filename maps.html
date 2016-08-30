@@ -10,10 +10,7 @@ title: Maps
         {% if post.maps1 %}
         <div class="side-by-side">
             <div class="toleft">
-                <img class="image" src="http://s33.postimg.org/et8i4qrm7/Untitled_1.png" alt="Medellín Map" style="margin-left: -10%; margin-top: 5%;">
-            </div>
-            <div class="toright">
-            <div class="item {% if post.star == true %}star{% endif %}">
+              <div class="item {% if post.star == true %}star{% endif %}">
                 <a class="url" href="{{ site.url }}{{ post.url }}">
                     {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
                 </a>
@@ -23,10 +20,47 @@ title: Maps
             <li>Looks at how these projects have impacted the Quality of Life index in the neighborhoods they were implemented in</li>
             </ul>
             </div>
+            <div class="toright">
+            <img class="image" src="http://s33.postimg.org/et8i4qrm7/Untitled_1.png" alt="Medellín Map" style="margin-top: 5%;">
+            </div>
             </div>
         {% endif %}
         {% if post.maps2 %}
         <div class="side-by-side">
+            <div class="toleft" style="margin-top: -10%;">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul style="margin-top: -2%;">
+            <li>A version of the map above in Spanish</li>
+            </ul>
+            </div>
+            <div class="toright" style="margin-top: -10%;">            
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps3 %}
+         <div class="side-by-side">
+            <div class="toleft">
+            <img class="image" src="http://s33.postimg.org/9k73b60jz/Untitled_2.png" alt="Medellín Neighborhood Map" style="margin-top: 5%; width: 79%;">     
+            </div>
+            <div class="toright">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul style="margin-top: -2%;">
+            <li>An interactive map showcasing four neighborhoods in Medellín, Colombia and the effects of the social urbanism projects implemented there</li>
+            <li>These are the only neighborhoods where a project had a statistically significant effect on the Quality of Life index</li>
+            </ul>                   
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps4 %}
+         <div class="side-by-side">
             <div class="toleft">
             </div>
             <div class="toright" style="margin-top: -10%;">
@@ -41,37 +75,20 @@ title: Maps
             </div>
             </div>
         {% endif %}
-        {% if post.maps3 %}
-         <div class="side-by-side">
+        {% if post.maps500 %}
+        <div class="side-by-side">
             <div class="toleft">
+                <img class="image" src="https://s17.postimg.org/r0z22t1xb/south_America_Map_withlines.png" alt="Route Map" style="margin-left: -10%; margin-top: 1%;">
+            </div>
+            <div class="toright">
             <div class="item {% if post.star == true %}star{% endif %}">
-                <a class="url" href="{{ site.url }}{{ post.url }}">
+                <a class="url" href="http://laurenmackey.com/route-map/" target="_blank">
                     {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
                 </a>
             </div>
             <ul style="margin-top: -2%;">
-            <li>An interactive map showcasing four neighborhoods in Medellín, Colombia and the effects of the social urbanism projects implemented there</li>
-            <li>These are the only neighborhoods where a project had a statistically significant effect on the Quality of Life index</li>
+            <li>An interactive map of the route I took through South and Central America from August 2015 to September 2016</li>
             </ul>
-            </div>
-            <div class="toright">
-            <img class="image" src="http://s33.postimg.org/9k73b60jz/Untitled_2.png" alt="Medellín Neighborhood Map" style="margin-top: 5%; margin-left: 10%; width: 79%;">
-            </div>
-            </div>
-        {% endif %}
-        {% if post.maps4 %}
-         <div class="side-by-side">
-            <div class="toleft" style="margin-top: -10%;">
-            <div class="item {% if post.star == true %}star{% endif %}">
-                <a class="url" href="{{ site.url }}{{ post.url }}">
-                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
-            <ul style="margin-top: -2%;">
-            <li>A version of the map above in Spanish</li>
-            </ul>
-            </div>
-            <div class="toright">
             </div>
             </div>
         {% endif %}

@@ -19,6 +19,6 @@ layout: page
     <li style="margin-left: 2em">Tried, for the first time: white water rafting, trekking overnight, mountain biking, sandboarding, paragliding, horseback trail riding, spelunking, glacier walking, volcano boarding and scuba diving</li>
     <li style="margin-left: 2em">Spent a month living out of a tent in Patagonia</li>
 	<li style="margin-left: 2em">Wrote a screenplay</li>
-	<li style="margin-left: 2em">Began learning to program: HTML, CSS, Javascript, jQuery, D3, Python</li>
+	<li style="margin-left: 2em">Began learning to program: HTML, CSS, Javascript, jQuery, Python</li>
 </ul>
 
