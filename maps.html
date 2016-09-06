@@ -270,5 +270,22 @@ title: Maps
             </div>
             </div>
         {% endif %}
+        {% if post.maps15 %}
+            <div class="side-by-side">
+            <div class="toleft">
+                <img class="image" src="https://s16.postimg.org/djho449k5/guatemala_outline.png" alt="Guatemala Route" style="width: 74%; margin-left: 5%;">
+            </div>
+            <div class="toright">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Guatemala in August - September, 2016</li>
+            </ul>
+            </div>
+            </div>
+        {% endif %}
     {% endfor %}
 </section>

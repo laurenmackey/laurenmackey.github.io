@@ -12,9 +12,10 @@ show-title: true
 
 <em>Across my year of travel, I wound up reading 30 books in total: 20 fiction and 10 nonfiction. Now that it's coming time to pack up the bags and head for home, I wanted to reflect on my favorite fiction and nonfiction books of my 2015 - 2016 travels. I've chosen and ranked my favorite three books in each category and explained why I loved them so much, below.
 
-##__Fiction__
+Fiction
+------------------
 
-###1. *Cat's Cradle* - By Kurt Vonnegut
+**1. *Cat's Cradle* - By Kurt Vonnegut**
 
 ![Markdown Image][1]{: class="smaller-image" }
 
@@ -22,22 +23,23 @@ I was first introduced to Vonnegut by *Slaughterhouse-Five*, which quickly becam
 
 
 
-###2. *A Tale of Two Cities* - By Charles Dickens
+**2. *A Tale of Two Cities* - By Charles Dickens**
 
 ![Markdown Image][2]{: class="smaller-image" }
 
 This was the first Dickens book I successfully started and finished, and the payoff from doing so was immense. I liked the story at the start, but then it got a bit dull toward the end of the first half. I kept reading though, my motivation to do so probably heightened by the fact that I was on a 26 hour bus ride towards Santiago, Chile. As I continued reading, I quickly got more and more invested in the story and its characters. Dickens has made you loathe some characters as much as you sympathize with others in this book, and its really their strength and depth that made me appreciate his writing more than ever before. Plus, the subject matter dealt with a time in history I knew little about, and I felt that Dickens' dramatization of the events that occurred in this period added to, rather than detracted from, my interest in the story.
 
-###3. *Telegraph Avenue* - By Michael Chabon
+**3. *Telegraph Avenue* - By Michael Chabon**
 
 ![Markdown Image][3]{: class="smaller-image" }
 
 I'm a big Michael Chabon fan, so it makes sense I would include one of his books on this list. I read three Chabon books while on this trip, and I enjoyed this one the most by far. That being said, it isn't my all time favorite of his books either (that award goes to *The Amazing Adventures of Kavalier and Clay*), and I enjoyed the two books listed above more than this one. Still, though, this book is great. It has Chabon's iconic genre fiction style, as well as his sardonic and complex language that leaves you feeling like your own vocabulary set is lackluster at best. This book was also close to home - having grown up in Sacramento, lived in San Francisco and spent a good amount of time in Berkeley, CA, the locations described in this book brought back some great memories.
 
 
-##__Nonfiction__
+Nonfiction
+------------------
 
-###1. *Eating Animals* - By Jonathan Safran Foer
+**1. *Eating Animals* - By Jonathan Safran Foer**
 
 ![Markdown Image][4]{: class="smaller-image" }
 
@@ -46,7 +48,7 @@ I don't think another book has changed my life as much as this one has. I had se
 After reading this book, I began to drastically reduce my meat consumption and to think more critically about the systems in place that enable the American meat industry to function the way it does. I also vowed to become a vegetarian when I returned from my travels. On the one hand, I haven't carried this out yet (although to be fair, my travels haven't ended yet), and maybe I won't fully be able to. Still, the fact that I think about this book on an almost daily basis, even after having read it over 10 months ago, shows how much of an impression it has left on me.
 
 
-###2. *King Leopold's Ghost* - By Adam Hochschild
+**2. *King Leopold's Ghost* - By Adam Hochschild**
 
 ![Markdown Image][5]{: class="smaller-image" }
 
@@ -54,7 +56,7 @@ This book is a powerfully close examination at a period of history that I only k
 
 This book is both moving and well-researched: a must-read for anyone interested in gaining more in-depth knowledge about this largely forgotten event and the climate of the late colonial era in Africa in general.
 
-###3. *Confessions of an Economic Hit Man* - By John Perkins
+**3. *Confessions of an Economic Hit Man* - By John Perkins**
 
 ![Markdown Image][6]{: class="smaller-image" }
 
