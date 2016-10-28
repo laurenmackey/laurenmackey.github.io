@@ -9861,19 +9861,19 @@ Fuentes
 13. EPM Fourth Quarter 2015 Earnings Results. (2016, April 6). Recuperado 24 Mayo, 2016, desde https://www.epm.com.co/site/Portals/6/documentos/Resultados Trimestrales/2015/4Q15_Transcript.pdf
 
 
-[1]: https://s32.postimg.org/h85pe4i45/IMG4343c.jpg
-[2]: https://s31.postimg.org/yvx3zrlkb/IMG4305.jpg
-[3]: https://s31.postimg.org/4tw7cjgvf/IMG4308.jpg
-[4]: https://s31.postimg.org/hsdfif9zf/IMG4259.jpg
-[5]: https://s31.postimg.org/h44kzhb9n/IMG4261.jpg
-[6]: https://s31.postimg.org/d5bgnpvi3/IMG4327.jpg
-[7]: https://s31.postimg.org/pxzknn73v/IMG4335.jpg
-[8]: https://s31.postimg.org/z71qxrfzv/IMG4342.jpg
-[9]: https://s31.postimg.org/8ekrww723/IMG4357.jpg
-[10]: https://s31.postimg.org/a7nol7s8r/IMG4363.jpg
-[11]: https://s31.postimg.org/8vakx2k6z/IMG4411.jpg
-[12]: https://s31.postimg.org/p4w5m85h7/IMG4401.jpg
-[13]: https://s32.postimg.org/9omru4905/IMG4254.jpg
+[1]: /Pictures/Paper/IMG4343c.jpg
+[2]: /Pictures/Paper/IMG4305.jpg
+[3]: /Pictures/Paper/IMG4308.jpg
+[4]: /Pictures/Paper/IMG4259.jpg
+[5]: /Pictures/Paper/IMG4261.jpg
+[6]: /Pictures/Paper/IMG4327.jpg
+[7]: /Pictures/Paper/IMG4335.jpg
+[8]: /Pictures/Paper/IMG4342.jpg
+[9]: /Pictures/Paper/IMG4357.jpg
+[10]: /Pictures/Paper/IMG4363.jpg
+[11]: /Pictures/Paper/IMG4411.jpg
+[12]: /Pictures/Paper/IMG4401.jpg
+[13]: /Pictures/Paper/IMG4254.jpg
 
 <style>
 .caption {
