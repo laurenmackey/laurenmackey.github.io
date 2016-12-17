@@ -5,7 +5,34 @@ title: Writings
 
 <div style="font-size: 170%; color: #00cc99;"> Urban Research </div>
 
-<section class="list" style="margin-left: 10%; margin-right: 10%;">
+<section class="list">
+    {% for post in site.posts %}
+        {% if post.writings1 %}
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul style="margin-top: -2%;">
+            <li>An examination of the social urbanism projects in Medellín, Colombia and their effects on the city's neighborhoods</li>
+            </ul>
+        {% endif %}
+        {% if post.writings2 %}
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul style="margin-top: -2%;">
+            <li>A version of the paper above in Spanish</li>
+            </ul>
+        {% endif %}
+    {% endfor %}
+</section>
+
+<!-- <section class="list" style="margin-left: 10%; margin-right: 10%;">
     {% for post in site.posts %}
         {% if post.writings1 %}
         <div class="side-by-side">
@@ -41,9 +68,9 @@ title: Writings
             </div>
         {% endif %}
     {% endfor %}
-</section>
+</section> -->
 
-<div style="font-size: 170%; color: #00cc99;"> Travel Reflections </div>
+<!-- <div style="font-size: 170%; color: #00cc99;"> Travel Reflections </div>
 
 <section class="list">
     {% for post in site.posts %}
@@ -56,7 +83,7 @@ title: Writings
             </div>
         {% endif %}
     {% endfor %}
-</section>
+</section> -->
 
 <div style="font-size: 170%; color: #00cc99; margin-top: 10%;"> Books </div>
 

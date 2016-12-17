@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>I'm Lauren. I'm a native Californian who has lived in Sacramento, Los Angeles, Barcelona, San Francisco and (most recently) all over Latin America. I'm very interested in urban development and policy, analytics, data visualization and the intersection between all of these things. In my free time, I enjoy reading, writing, speaking Spanish and making maps.</p>
+<p>I'm Lauren. I'm a native Californian who has lived in Sacramento, Los Angeles, Barcelona, San Francisco, and (most recently) all over Latin America. In my free time, I enjoy reading, writing, speaking Spanish, and making maps.</p>
 
 <p>A few random facts about me: </p>
 
