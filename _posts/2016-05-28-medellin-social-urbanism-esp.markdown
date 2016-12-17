@@ -1,7 +1,7 @@
 ---
 title: "Medellín Social Urbanism (esp)"
 layout: post
-date: 2016-06-01
+date: 2016-05-28
 tag:
 writings2: true
 show-info: false
