@@ -2,14 +2,314 @@
 layout: page
 title: Projects
 ---
-<section class="list">
+
+<div style="font-size: 170%; color: #00cc99;"> Data Visualization </div>
+
+<section style="margin-left: 10%; margin-right: 10%;">
     {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star == true %}star{% endif %}">
-                <a class="url" href="{{ site.url }}{{ post.url }}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+        {% if post.dataViz1 %}
+        <div class="side-by-side">
+            <div class="toleft">
+              <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="http://laurenmackey.com/transportation-illustration/" target="_blank">
                     {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
                 </a>
+            </div>
+            <ul style="margin-top: -2%;">
+            <li>An examination of your own transportation trends in comparison to other areas and ages.</li>
+            </ul>
+            </div>
+            <div class="toright">
+            <img class="image" src="/Pictures/TransportationIllustration_Logo.png" alt="Transportation Illustration" style="margin-top: 5%;">
+            </div>
+            </div>
+        {% endif %}
+        {% endfor %}
+</section>
+<br>
+
+<div style="font-size: 170%; color: #00cc99;"> Interactive Maps </div>
+
+<section style="margin-left: 10%; margin-right: 10%;">
+    {% for post in site.posts %}
+        {% if post.maps1 %}
+        <div class="side-by-side">
+            <div class="toleft">
+              <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul style="margin-top: -2%;">
+            <li>An interactive map examining the social urbanism projects in Medellín, Colombia</li>
+            <li>Looks at how these projects have impacted the Quality of Life index in the neighborhoods they were implemented in</li>
+            </ul>
+            </div>
+            <div class="toright">
+            <img class="image" src="/Pictures/Medellin_SU_En.png" alt="Medellín Map" style="margin-top: 5%;">
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps2 %}
+        <div class="side-by-side">
+            <div class="toleft" style="margin-top: -10%;">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul style="margin-top: -2%;">
+            <li>A version of the map above in Spanish</li>
+            </ul>
+            </div>
+            <div class="toright" style="margin-top: -10%;">            
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps3 %}
+         <div class="side-by-side">
+            <div class="toleft">
+            <img class="image" src="/Pictures/Medellin_Neighborhood.png" alt="Medellín Neighborhood Map" style="margin-top: 5%; width: 79%;">     
+            </div>
+            <div class="toright">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul style="margin-top: -2%;">
+            <li>An interactive map showcasing four neighborhoods in Medellín, Colombia and the effects of the social urbanism projects implemented there</li>
+            <li>These are the only neighborhoods where a project had a statistically significant effect on the Quality of Life index</li>
+            </ul>                   
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps4 %}
+         <div class="side-by-side">
+            <div class="toleft">
+            </div>
+            <div class="toright" style="margin-top: -10%;">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul style="margin-top: -2%;">
+            <li>A version of the map above in Spanish</li>
+            </ul>
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps500 %}
+        <div class="side-by-side">
+            <div class="toleft">
+                <img class="image" src="/Pictures/Route_Map.png" alt="Route Map" style="margin-left: -10%; margin-top: 1%;">
+            </div>
+            <div class="toright">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="http://laurenmackey.com/route-map/" target="_blank">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul style="margin-top: -2%;">
+            <li>An interactive map of the route I took through South and Central America from August 2015 to September 2016</li>
+            </ul>
+            </div>
+            </div>
+        {% endif %}
+        {% endfor %}
+</section>
+<br>
+
+<div style="font-size: 170%; color: #00cc99;"> Static Maps </div>
+
+<section style="margin-left: 10%; margin-right: 10%;">
+    {% for post in site.posts %}
+        {% if post.maps5 %}
+            <div class="side-by-side">
+            <div class="toleft">
+                <img class="image" src="/Pictures/peru_outline.png" alt="Peru Route" style="width: 70%; margin-left: 8%;">
+            </div>
+            <div class="toright">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Peru in August - October, 2015</li>
+            </ul>
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps6 %}
+            <div class="side-by-side">
+            <div class="toleft">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Bolivia in October - December, 2015</li>
+            </ul>
+            </div>                
+            <div class="toright">
+            <img class="image" src="/Pictures/bolivia_outline.png" alt="Bolivia Route" style="width: 70%;">
+            </div> 
+            </div>
+        {% endif %}
+        {% if post.maps7 %}
+            <div class="side-by-side">
+            <div class="toleft">
+                <img class="image" src="/Pictures/chile_outline.png" alt="Chile Route" style="width: 27%; margin-left: 32%;">
+            </div>
+            <div class="toright">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Chile in December, 2015 - March, 2016</li>
+            </ul>
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps8 %}
+            <div class="side-by-side">
+            <div class="toleft">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Uruguay in March, 2016</li>
+            </ul>
+            </div>                
+            <div class="toright">
+            <img class="image" src="/Pictures/uruguay_outline.png" alt="Uruguay Route" style="width: 70%;">
+            </div> 
+            </div>
+        {% endif %}
+        {% if post.maps9 %}
+            <div class="side-by-side">
+            <div class="toleft">
+                <img class="image" src="/Pictures/argentina_outline.png" alt="Argentina Route" style="width: 50%; margin-left: 25%;">
+            </div>
+            <div class="toright">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Argentina in February - April, 2016</li>
+            </ul>
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps10 %}
+            <div class="side-by-side">
+            <div class="toleft">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Colombia in April - June, 2016</li>
+            </ul>
+            </div>
+            <div class="toright">
+            <img class="image" src="/Pictures/colombia_outline.png" alt="Colombia Route" style="width: 70%;">            
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps11 %}
+            <div class="side-by-side">
+            <div class="toleft">
+                <img class="image" src="/Pictures/panama_outline.png" alt="Panamá Route" style="width: 80%; margin-left: 5%;">
+            </div>
+            <div class="toright">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Panamá in June - July, 2016</li>
+            </ul>
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps12 %}
+            <div class="side-by-side">
+            <div class="toleft">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Costa Rica in July, 2016</li>
+            </ul>
+            </div>
+            <div class="toright">
+            <img class="image" src="/Pictures/costarica_outline.png" alt="Costa Rica Route" style="width: 60%;">            
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps13 %}
+            <div class="side-by-side">
+            <div class="toleft">
+                <img class="image" src="/Pictures/nicaragua_outline.png" alt="Nicaragua Route" style="width: 74%; margin-left: 5%;">
+            </div>
+            <div class="toright">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Nicaragua in July - August, 2016</li>
+            </ul>
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps14 %}
+            <div class="side-by-side">
+            <div class="toleft">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Honduras in August, 2016</li>
+            </ul>
+            </div>
+            <div class="toright">
+            <img class="image" src="/Pictures/honduras_outline.png" alt="Honduras Route" style="width: 88%;">            
+            </div>
+            </div>
+        {% endif %}
+        {% if post.maps15 %}
+            <div class="side-by-side">
+            <div class="toleft">
+                <img class="image" src="/Pictures/guatemala_outline.png" alt="Guatemala Route" style="width: 74%; margin-left: 5%;">
+            </div>
+            <div class="toright">
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+            <ul>
+            <li>A map of my route through Guatemala in August - September, 2016</li>
+            </ul>
+            </div>
             </div>
         {% endif %}
     {% endfor %}
