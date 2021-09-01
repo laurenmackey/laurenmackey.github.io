@@ -1,26 +1,28 @@
 # laurenmackey.github.io
 Personal Website
 
-## Setup
-Delete main local directory
+## First-time setup
+```
+# clone repo
+git clone https://github.com/laurenmackey/laurenmackey.github.io.git
 
-Clone
-    git clone https://github.com/laurenmackey/laurenmackey.github.io.git
-    
-Install bundler
+# make sure jekyll, node, and bundler are installed
+jekyll -v
+node -v
+bundler -v
 
-    sudo gem install bundle
-    
-Install all the ruby gems
+# NOTE: if the step above doesn't work, may need to re-install ruby:
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install ruby
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+source ~/.bash_profile
 
-    bundle install
-    
-Install all the node modules
-
-    nvm use .
-    npm install
-    npm install -g gulp
+# install ruby gems
+bundle install
+```
     
 ## Run
+`bundle exec jekyll serve --config _config.yml,_config-dev.yml`
 
-    gulp
+## Visit dev site
+`http://localhost:4000`
