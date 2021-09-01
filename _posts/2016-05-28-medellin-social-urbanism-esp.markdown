@@ -9861,19 +9861,19 @@ Fuentes
 13. EPM Fourth Quarter 2015 Earnings Results. (2016, April 6). Recuperado 24 Mayo, 2016, desde https://www.epm.com.co/site/Portals/6/documentos/Resultados Trimestrales/2015/4Q15_Transcript.pdf
 
 
-[1]: /Pictures/Paper/IMG4343c.jpg
-[2]: /Pictures/Paper/IMG4305.jpg
-[3]: /Pictures/Paper/IMG4308.jpg
-[4]: /Pictures/Paper/IMG4259.jpg
-[5]: /Pictures/Paper/IMG4261.jpg
-[6]: /Pictures/Paper/IMG4327.jpg
-[7]: /Pictures/Paper/IMG4335.jpg
-[8]: /Pictures/Paper/IMG4342.jpg
-[9]: /Pictures/Paper/IMG4357.jpg
-[10]: /Pictures/Paper/IMG4363.jpg
-[11]: /Pictures/Paper/IMG4411.jpg
-[12]: /Pictures/Paper/IMG4401.jpg
-[13]: /Pictures/Paper/IMG4254.jpg
+[1]: /assets/images/social_urbanism_paper/IMG4343c.jpg
+[2]: /assets/images/social_urbanism_paper/IMG4305.jpg
+[3]: /assets/images/social_urbanism_paper/IMG4308.jpg
+[4]: /assets/images/social_urbanism_paper/IMG4259.jpg
+[5]: /assets/images/social_urbanism_paper/IMG4261.jpg
+[6]: /assets/images/social_urbanism_paper/IMG4327.jpg
+[7]: /assets/images/social_urbanism_paper/IMG4335.jpg
+[8]: /assets/images/social_urbanism_paper/IMG4342.jpg
+[9]: /assets/images/social_urbanism_paper/IMG4357.jpg
+[10]: /assets/images/social_urbanism_paper/IMG4363.jpg
+[11]: /assets/images/social_urbanism_paper/IMG4411.jpg
+[12]: /assets/images/social_urbanism_paper/IMG4401.jpg
+[13]: /assets/images/social_urbanism_paper/IMG4254.jpg
 
 <style>
 .caption {

@@ -65,12 +65,12 @@ This book was a fascinating read in my opinion, and offered great insight into a
 I didn't find the writing in this book to be particularly compelling, but Perkins is clearly a smart and thoughtful guy who knows a lot about how the world works. His book caused me to view current and past events with a more critical and informed eye, and, I must admit, made me resent my American government a little more than I had before. 
 
 
-[1]: /Pictures/CatsCradle.jpg
-[2]: /Pictures/TaleofTwo.jpg
-[3]: /Pictures/TelegraphAve.jpg
-[4]: /Pictures/EatingAnimals.jpg
-[5]: /Pictures/KingLeopold.jpg
-[6]: /Pictures/Confessions.jpg
+[1]: /assets/images/cats_cradle.jpg
+[2]: /assets/images/tale_of_two.jpg
+[3]: /assets/images/telegraph_ave.jpg
+[4]: /assets/images/eating_animals.jpg
+[5]: /assets/images/king_leopold.jpg
+[6]: /assets/images/confessions.jpg
 
 <style>
 
