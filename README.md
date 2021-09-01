@@ -4,7 +4,6 @@ Personal Website
 ## First-time setup
 ```
 # clone repo
-# TODO: update
 git clone https://github.com/laurenmackey/laurenmackey.github.io.git
 
 # make sure jekyll, node, and bundler are installed
