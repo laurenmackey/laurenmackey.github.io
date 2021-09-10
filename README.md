@@ -26,3 +26,7 @@ bundle install
 
 ## Visit dev site
 `http://localhost:4000`
+
+## Deploy
+- site is set up to automatically deploy via Netlify
+- deploy should be automatically triggered once code is pushed
