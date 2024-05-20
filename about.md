@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Hello! I'm Lauren. I currently live in Whitefish, Montana and work as a Software Engineer for an education tech company.</p>
+<p>Hello! I'm Lauren. I currently live in Sacramento, CA and work as a Software Engineer at Square.</p>
 
 Some fun facts:
 <ul>
